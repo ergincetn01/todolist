@@ -1,0 +1,7 @@
+.todo-list {
+    columns: 6 200px;
+    column-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}

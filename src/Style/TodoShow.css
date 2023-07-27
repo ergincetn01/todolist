@@ -1,0 +1,43 @@
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: calc(100% - 40px);
+}
+.show-todo {
+  color: black;
+  background-image: linear-gradient(black, purple);
+  border: 1px solid gray;
+  border-radius: 20px;
+  width: calc(100% / 3 - 30px);
+  height: 300px;
+  margin: 10px;
+}
+.actions {
+  justify-content: end;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding: 5px;
+}
+
+.edit {
+  color: white;
+  background-color: green;
+  box-shadow: none;
+  border-radius: 10px;
+  width: 15vh;
+  height: 5vh;
+}
+.delete {
+  background-image: linear-gradient(red, black);
+  color: white;
+  border-radius: 10px;
+  width: 15vh;
+  height: 5vh;
+}
+.todotitle {
+  padding-top: 5px;
+  padding-left: 15px;
+}
