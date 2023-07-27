@@ -1,0 +1,38 @@
+.add-todo {
+    display: flex;
+    flex-direction: row;
+}
+.todo-title {
+    margin-left:10px ;
+    border-radius: 10px;
+    width: 40%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+  border: 1px solid black;
+}
+
+.btn-add {
+    width: 15vh;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    opacity: 1;
+}
+
+.btn-cnt {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.btn-disabled {
+    width: 15vh;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    opacity: 0.3;
+}

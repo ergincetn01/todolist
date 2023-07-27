@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../Style/TodoEdit.css"
 
 function TodoEdit({ onSubmit, todo }) {
   const [title, newTitle] = useState(todo.title);
@@ -15,8 +16,7 @@ function TodoEdit({ onSubmit, todo }) {
   return (
     <div>
       <form className="todo-edit" onSubmit={handleSubmit}>
-        <label>Title</label>
-        <input className="input" onChange={handleChange} value={todo.title} />
+        <textarea className="input" onChange={handleChange} value={todo.title} />
         <button className="btn-edit">Save Changes</button>
       </form>
     </div>
