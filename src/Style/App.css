@@ -1,2 +1,10 @@
+.header {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
 
+h1 {
+    font-family:cursive;
+}
 

@@ -17,7 +17,7 @@ function TodoEdit({ onSubmit, todo }) {
     <div>
       <form className="todo-edit" onSubmit={handleSubmit}>
         <textarea className="input" onChange={handleChange} value={todo.title} />
-        <button className="btn-edit">Save Changes</button>
+        <button className="btn-edit"><p>Save Changes</p></button>
       </form>
     </div>
   );
